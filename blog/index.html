@@ -1,13 +1,20 @@
 ---
 layout: default
 title: Denny Biasiolli's Blog
+category: blog
 ---
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
+  <p class="date">
     <span class="date">{{ post.date | date_to_string }}</span>
+  </p>
+  <p class="categories">
+    Categories: 
+    {% for category in post.categories %}<!-- <span>{{ post.categories }}</span> -->
+      <span>{{ category }}</span>
+    {% endfor %}
   </p>
   <div class="content">
     {{ post.content }}
