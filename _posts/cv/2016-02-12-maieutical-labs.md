@@ -5,7 +5,7 @@ date:   2016-02-12 00:00:00 +0200
 categories: cv work
 ---
 
-## Web Developer at Maieutical Labs, Turin
+## Web Developer at Maieutical Labs S.r.l., Turin
 
 ##### from February 2016
 
