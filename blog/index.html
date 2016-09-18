@@ -10,12 +10,12 @@ category: blog
   <p class="date">
     <span class="date">{{ post.date | date_to_string }}</span>
   </p>
-  <p class="categories">
+  <!-- <p class="categories">
     Categories: 
-    {% for category in post.categories %}<!-- <span>{{ post.categories }}</span> -->
+    {% for category in post.categories %}
       <span>{{ category }}</span>
     {% endfor %}
-  </p>
+  </p> -->
   <div class="content">
     {{ post.content }}
   </div>

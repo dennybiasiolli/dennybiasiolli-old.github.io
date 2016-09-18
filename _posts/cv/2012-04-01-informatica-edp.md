@@ -5,7 +5,7 @@ date: 2012-04-01 00:00:00 +0200
 categories: cv work
 ---
 
-## Software Developer at "Informatica EDP S.R.L.", Fossano (CN, Italy)
+## Software Developer at "Informatica EDP S.r.l.", Fossano (CN, Italy)
 
 ##### April 2012 - February 2016
 
